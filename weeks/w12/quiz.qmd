@@ -1,5 +1,5 @@
 ---
-title: "Quiz w12 — Minggu 12 (soal dari strategi.pdf)"
+title: "Quiz w12 — Minggu 12 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -28,7 +28,7 @@ nol.
 
 ## Q02 (T/F)
 
-Galat Tipe I adalah kean menolak 0 padahal 0 .
+Galat Tipe I adalah kesalahan menolak padahal benar.
 
 ## Q03 (T/F)
 
@@ -39,62 +39,74 @@ Meningkatkan ukuran sampel biasanya akan meningkatkan kekuatan uji (power).
 Nilai probabilitas yang menunjukkan kekuatan bukti melawan hipotesis nol disebut:
 
 - **A)** Tingkat kepercayaan.
+
 - **B)** p-value.
+
 - **C)** Statistik uji.
+
 - **D)** Parameter.
+
+
 
 ## Q05 (MC)
 
-Jika kita menguji 0
-= 50 vs 1
-50, maka kita melakukan uji:
-
-Minggu 13: Analisis Regresi Linear dan Korelasi
-Minggu ketiga belas memperkenalkan pemodelan prediktif. Mahasiswa belajar mencari
-hubungan linear antara variabel, yang merupakan dasar dari algoritma machine learning
-modern.
-Bank Soal Mingguan
-Pertanyaan Konseptual
+Jika kita menguji = 50 vs 50, maka kita melakukan uji:
+0 1
 
 - **A)** Satu arah (kanan).
+
 - **B)** Satu arah (kiri).
+
 - **C)** Dua arah.
+
 - **D)** Tanpa arah.
+
+
 
 ## Q06 (MC)
 
 Kondisi di mana kita menolak hipotesis nol padahal sebenarnya salah disebut:
 
 - **A)** Keputusan yang benar (Power).
+
 - **B)** Galat Tipe I.
+
 - **C)** Galat Tipe II.
+
 - **D)** Signifikansi.
+
+
 
 ## Q07 (MC)
 
 Tingkat signifikansi yang umum digunakan dalam penelitian adalah:
 
 - **A)** 0,5
+
 - **B)** 0,05
+
 - **C)** 0,95
+
 - **D)** 1,0
+
+
 
 ## Q08 (Numeric)
 
-Jika statistik uji = , 5 dan nilai kritis = 1, 6 untuk uji dua arah, apakah 0
+Jika statistik uji = 2,58 dan nilai kritis c = 1,96 untuk uji dua arah, apakah 0
 ditolak? (Tulis 1 untuk Ya, 0 untuk Tidak)
 
 ## Q09 (Numeric)
 
-Berapakah nilai  jika tingkat kepercayaan adalah 99%?
+Berapakah nilai jika tingkat kepercayaan adalah 99%?
 
 ## Q10 (Numeric)
 
-Dalam uji t dengan sampel = 10, berapakah derajat kebebasannya?
+Dalam uji t dengan sampel n = 10, berapakah derajat kebebasannya?
 
 ## Q11 (Numeric)
 
-Jika p-value = 0,02 dan  = 0,05, apakah kita menolak 0? (Tulis 1 untuk Ya, 0
+Jika p-value = 0,02 dan = 0,05, apakah kita menolak 0? (Tulis 1 untuk Ya, 0
 untuk Tidak)
 
 ## Q12 (Numeric)

@@ -16,3 +16,4 @@ venv/
 Thumbs.db
 
 /.quarto/
+**/*.quarto_ipynb

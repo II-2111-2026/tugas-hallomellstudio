@@ -1,5 +1,5 @@
 ---
-title: "Quiz w07 — Minggu 07 (soal dari strategi.pdf)"
+title: "Quiz w07 — Minggu 07 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -31,16 +31,23 @@ Distribusi Normal Standar memiliki mean 0 dan variansi 1.
 
 ## Q03 (T/F)
 
-Pada distribusi kontinu,  selalu sama dengan .
+Pada distribusi kontinu, P(X ) selalu sama dengan P(X ).
 
 ## Q04 (MC)
 
-Nilai  yang bersesuaian dengan nilai  pada distribusi ,  adalah:
+Nilai yang bersesuaian dengan nilai pada distribusi
+(,2)
+adalah:
 
-- **A)** −
-- **B)** 
-- **C)** −
+- **A)** (−)/
+
+- **B)** (+)/
+
+- **C)** /(−)
+
 - **D)** −
+
+
 
 ## Q05 (MC)
 
@@ -48,39 +55,46 @@ Distribusi mana yang sering digunakan untuk memodelkan waktu antar kejadian
 dalam proses Poisson?
 
 - **A)** Binomial.
+
 - **B)** Normal.
+
 - **C)** Eksponensial.
+
 - **D)** Uniform.
+
+
 
 ## Q06 (MC)
 
 Sekitar 95% data dalam distribusi Normal berada dalam rentang:
 
-Minggu 09: Variabel Acak Bivariat dan Transformasi
-Variabel
-Minggu kesembilan mengeksplorasi hubungan antara dua variabel acak, seperti hubungan
-antara penggunaan CPU dan konsumsi daya, serta bagaimana fungsi dari variabel acak
-mengubah distribusinya.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-
 - **A)** 
-- **B)** 
-- **C)** 
+
+- **B)** 2
+
+- **C)** 3
+
 - **D)** 0 1
+
+
 
 ## Q07 (MC)
 
-Jika = 0, 5 pada distribusi Eksponensial, maka nilai harapannya adalah:
+Jika = 0,5 pada distribusi Eksponensial, maka nilai harapannya adalah:
 
 - **A)** 0,5
+
 - **B)** 2,0
+
 - **C)** 1,0
+
 - **D)** 0,25
+
+
 
 ## Q08 (Numeric)
 
-Jika 0, 1, berapakah 0?
+Jika (0,1), berapakah P( 0)?
 
 ## Q09 (Numeric)
 
@@ -89,13 +103,13 @@ Berapakah parameter -nya?
 
 ## Q10 (Numeric)
 
-Nilai  untuk probabilitas kumulatif 0,975 adalah sekitar... (Gunakan 2 desimal)
+Nilai untuk probabilitas kumulatif 0,975 adalah sekitar... (Gunakan 2 desimal)
 
 ## Q11 (Numeric)
 
-Jika 10, , berapakah nilai skor-Z untuk = 1?
+Jika X (10,4), berapakah nilai skor-Z untuk = 12?
 
 ## Q12 (Numeric)
 
-Pada distribusi Normal Standar, berapakah nilai  mendekati? (Gunakan 4
-desimal)
+Pada distribusi Normal Standar, berapakah nilai P( > 3) mendekati?
+(Gunakan 4 desimal)

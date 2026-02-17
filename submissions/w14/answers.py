@@ -9,56 +9,56 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-
 from __future__ import annotations
-
 def q01() -> bool:
     """[T/F] Pengujian A/B adalah aplikasi nyata dari uji hipotesis dua sampel."""
     raise NotImplementedError
 
 def q02() -> bool:
-    """[T/F] Metrik "Presisi" mengukur seberapa banyak dari total prediksi positif yang -
- positif."""
+    """[T/F] Metrik "Presisi" mengukur seberapa banyak dari total prediksi positif yang benar-
+benar positif."""
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Dalam monitoring sistem, kita biasanya mengabaikan outlier karena itu bukan
-bagian dari pola normal.  - outlier seringkali menunjukkan anomali atau
-kegagalan)."""
+bagian dari pola normal."""
     raise NotImplementedError
 
 def q04() -> str:
     """[MC] Metrik evaluasi yang tepat untuk dataset dengan kelas yang tidak seimbang
 (imbalanced) adalah:
 
-a) Akurasi.
-b) F1-Score.
-c) Mean.
-d) Range."""
+A) Akurasi.
+B) F1-Score.
+C) Mean.
+D) Range."""
     raise NotImplementedError
 
 def q05() -> str:
-    """[MC] Dalam deteksi anomali, data yang berada di luar  biasanya dianggap:
-a) Data normal.
-b) Outlier atau anomali.
-c) Nilai rata-rata.
-d) Sampel ideal."""
+    """[MC] Dalam deteksi anomali, data yang berada di luar 3 biasanya dianggap:
+
+A) Data normal.
+B) Outlier atau anomali.
+C) Nilai rata-rata.
+D) Sampel ideal."""
     raise NotImplementedError
 
 def q06() -> str:
     """[MC] Pengujian A/B dilakukan untuk:
-a) Mengurangi biaya server.
-b) Menentukan versi produk mana yang memberikan performa/konversi lebih baik.
-c) Menghapus bug secara otomatis.
-d) Mengganti peran programmer."""
+
+A) Mengurangi biaya server.
+B) Menentukan versi produk mana yang memberikan performa/konversi lebih baik.
+C) Menghapus bug secara otomatis.
+D) Mengganti peran programmer."""
     raise NotImplementedError
 
 def q07() -> str:
     """[MC] Jika sebuah sistem memiliki presisi 1,0, berarti:
-a) Tidak ada false positive.
-b) Tidak ada false negative.
-c) Akurasi 100%.
-d) Sistem sempurna."""
+
+A) Tidak ada false positive.
+B) Tidak ada false negative.
+C) Akurasi 100%.
+D) Sistem sempurna."""
     raise NotImplementedError
 
 def q08() -> float:
@@ -81,5 +81,6 @@ baku 5?"""
 
 def q12() -> float:
     """[Numeric] Jika dalam pengujian A/B, p-value yang didapat adalah 0,001, apakah ada
-perbedaan signifikan pada = 0, 05? (Tulis 1 untuk Ya, 0 untuk Tidak)"""
+perbedaan signifikan pada = 0,05? (Tulis 1 untuk Ya, 0 untuk Tidak)"""
     raise NotImplementedError
+

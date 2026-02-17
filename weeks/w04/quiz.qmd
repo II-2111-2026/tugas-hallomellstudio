@@ -1,5 +1,5 @@
 ---
-title: "Quiz w04 — Minggu 04 (soal dari strategi.pdf)"
+title: "Quiz w04 — Minggu 04 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -23,40 +23,44 @@ execute:
 
 ## Q01 (T/F)
 
-Jika kejadian  dan  independen, maka = .
+Jika kejadian A dan B independen, maka P(A|B) = P(A).
 
 ## Q02 (T/F)
 
-Probabilitas kondisional  selalu sama dengan .
+Probabilitas kondisional P(A|B) selalu sama dengan P(B|A).
 
 ## Q03 (T/F)
 
-Teorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari 
-menjadi .
+Teorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari
+P(B|A) menjadi P(A|B).
 
 ## Q04 (MC)
 
-Jika = 0, 5, = 0,  dan ,  independen, maka  adalah:
+Jika P(A) = 0,5,P(B) = 0,4 dan A,B independen, maka P(A∩B) adalah:
 
 - **A)** 0,9
+
 - **B)** 0,1
+
 - **C)** 0,2
+
 - **D)** 0,5
+
+
 
 ## Q05 (MC)
 
-Rumus Bayes menyatakan bahwa  sama dengan:
+Rumus Bayes menyatakan bahwa P(A|B) sama dengan:
 
-Minggu 05: Variabel Acak, Ekspektasi, dan Variansi
-Minggu ini menandai transisi dari kejadian diskrit ke variabel numerik. Mahasiswa belajar
-memetakan hasil dunia nyata ke dalam fungsi matematika. Konsep nilai harapan
-(ekspektasi) diperkenalkan sebagai representasi keuntungan jangka panjang atau rata-rata
-beban sistem.
+- **A)** P(B|A)P(A)/P(B)
 
-- **A)** 
-- **B)** 
-- **C)** 
-- **D)** 
+- **B)** P(A|B)P(B)/P(A)
+
+- **C)** P(A)+P(B)
+
+- **D)** P(A∩B)
+
+
 
 ## Q06 (MC)
 
@@ -64,22 +68,32 @@ Kejadian di mana hasil satu eksperimen tidak mempengaruhi hasil eksperimen
 lainnya disebut:
 
 - **A)** Saling lepas.
+
 - **B)** Independen.
+
 - **C)** Kondisional.
+
 - **D)** Komplementer.
+
+
 
 ## Q07 (MC)
 
 Jika sebuah tes medis memiliki sensitivitas tinggi, maka:
 
 - **A)** Banyak hasil false positive.
+
 - **B)** Probabilitas mendeteksi orang sakit sangat tinggi.
+
 - **C)** Probabilitas mendeteksi orang sehat sangat tinggi.
+
 - **D)** Tes tersebut tidak berguna.
+
+
 
 ## Q08 (Numeric)
 
-Jika = 0,  dan = 0, 5, berapakah ?
+Jika P(A∩B) = 0,2 dan P(B) = 0,5, berapakah P(A|B)?
 
 ## Q09 (Numeric)
 
@@ -94,9 +108,10 @@ probabilitas dia benar-benar sakit?
 
 ## Q11 (Numeric)
 
-Jika = 0, , = 0,  dan = 0, , hitung  menggunakan Hukum Probabilitas Total.
+Jika P(A) = 0,3,P(B|A) = 0,7 dan P(B|Ac) = 0,4, hitung P(B)
+menggunakan Hukum Probabilitas Total.
 
 ## Q12 (Numeric)
 
-Dari soal nomor 11, hitung  menggunakan Teorema Bayes (Gunakan 3
-desimal).
+Dari soal nomor 11, hitung P(A|B) menggunakan Teorema Bayes (Gunakan
+3 desimal).

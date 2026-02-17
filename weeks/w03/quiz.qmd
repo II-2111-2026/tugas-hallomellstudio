@@ -1,5 +1,5 @@
 ---
-title: "Quiz w03 — Minggu 03 (soal dari strategi.pdf)"
+title: "Quiz w03 — Minggu 03 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -41,9 +41,14 @@ Sebuah sistem terdiri dari dua komponen dengan reliabilitas 0,9 yang disusun
 secara paralel. Reliabilitas sistem adalah:
 
 - **A)** 0,81
+
 - **B)** 0,99
+
 - **C)** 0,90
+
 - **D)** 1,80
+
+
 
 ## Q05 (MC)
 
@@ -51,27 +56,42 @@ Jika tiga switch identik dengan reliabilitas 0,8 disusun seri, reliabilitas tota
 adalah:
 
 - **A)** 0,512
+
 - **B)** 0,8
+
 - **C)** 2,4
+
 - **D)** 0,2
+
+
 
 ## Q06 (MC)
 
 Manakah konfigurasi yang paling tahan terhadap kegagalan komponen tunggal?
 
 - **A)** Seri.
+
 - **B)** Paralel.
+
 - **C)** Campuran seri-paralel.
+
 - **D)** Sistem tanpa redundansi.
+
+
 
 ## Q07 (MC)
 
-Istilah untuk probabilitas sistem berfungsi pada waktu tertentu  adalah:
+Istilah untuk probabilitas sistem berfungsi pada waktu tertentu t adalah:
 
 - **A)** Efisiensi.
+
 - **B)** Reliabilitas.
+
 - **C)** Kapasitas.
+
 - **D)** Latensi.
+
+
 
 ## Q08 (Numeric)
 
@@ -95,4 +115,4 @@ reliabilitas total sistem lampu tersebut?
 ## Q12 (Numeric)
 
 Berapa probabilitas sistem seri dengan 10 komponen identik (masing-masing
-= 0,99) tetap berfungsi? (Gunakan 3 desimal)
+R = 0,99) tetap berfungsi? (Gunakan 3 desimal)

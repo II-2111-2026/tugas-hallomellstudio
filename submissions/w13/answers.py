@@ -9,16 +9,15 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-
 from __future__ import annotations
-
 def q01() -> bool:
-    """[T/F] Garis regresi meminimalkan jumlah total selisih absolut antara data dan garis.
- - meminimalkan kuadrat selisih)."""
+    """[T/F] Garis regresi meminimalkan jumlah total selisih absolut antara data dan garis."""
     raise NotImplementedError
 
 def q02() -> bool:
-    """[T/F] Nilai  sebesar 0,85 berarti 85% variasi pada variabel dependen dapat dijelaskan
+    """[T/F] Nilai
+R2
+sebesar 0,85 berarti 85% variasi pada variabel dependen dapat dijelaskan
 oleh variabel independen."""
     raise NotImplementedError
 
@@ -28,49 +27,50 @@ memprediksi satu variabel dependen."""
     raise NotImplementedError
 
 def q04() -> str:
-    """[MC] Dalam persamaan = ,  merepresentasikan:
-a) Intersep.
-b) Kemiringan (slope).
-c) Varians.
-d) Galat."""
+    """[MC] Dalam persamaan = +X, merepresentasikan:
+
+A) Intersep.
+B) Kemiringan (slope).
+C) Varians.
+D) Galat."""
     raise NotImplementedError
 
 def q05() -> str:
-    """[MC] Jika korelasi = −0, , maka hubungan antara kedua variabel adalah:
+    """[MC] Jika korelasi = −0,9, maka hubungan antara kedua variabel adalah:
 
-Minggu 14: Aplikasi Statistika dalam Domain STI Lanjutan
-Minggu terakhir difokuskan pada sintesis seluruh materi melalui aplikasi modern seperti
-pengujian A/B, deteksi anomali, dan dasar-dasar inferensi untuk algoritma AI.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-a) Sangat lemah.
-b) Sangat kuat dan negatif.
-c) Tidak ada hubungan.
-d) Positif."""
+A) Sangat lemah.
+B) Sangat kuat dan negatif.
+C) Tidak ada hubungan.
+D) Positif."""
     raise NotImplementedError
 
 def q06() -> str:
-    """[MC] Manakah nilai  yang menunjukkan model paling buruk?
-a) 0,99
-b) 0,50
-c) 0,00
-d) -1,00"""
+    """[MC] Manakah nilai
+R2
+yang menunjukkan model paling buruk?
+
+A) 0,99
+B) 0,50
+C) 0,00
+D) -1,00"""
     raise NotImplementedError
 
 def q07() -> str:
-    """[MC] Titik di mana garis regresi memotong sumbu  disebut:
-a) Slope.
-b) Intersep.
-c) Origin.
-d) Outlier."""
+    """[MC] Titik di mana garis regresi memotong sumbu disebut:
+
+A) Slope.
+B) Intersep.
+C) Origin.
+D) Outlier."""
     raise NotImplementedError
 
 def q08() -> float:
-    """[Numeric] Jika persamaan regresi adalah = 5 , berapakah nilai prediksi  untuk = 10?"""
+    """[Numeric] Jika persamaan regresi adalah = 5+2X, berapakah nilai prediksi untuk
+X = 10?"""
     raise NotImplementedError
 
 def q09() -> float:
-    """[Numeric] Jika = 0, 6, berapakah nilai korelasi  (ambil nilai positif)?"""
+    """[Numeric] Jika R2 = 0,64, berapakah nilai korelasi (ambil nilai positif)?"""
     raise NotImplementedError
 
 def q10() -> float:
@@ -78,9 +78,10 @@ def q10() -> float:
     raise NotImplementedError
 
 def q11() -> float:
-    """[Numeric] Jika  naik 10 unit ketika  naik 2 unit, berapakah nilai slope ?"""
+    """[Numeric] Jika naik 10 unit ketika X naik 2 unit, berapakah nilai slope ?"""
     raise NotImplementedError
 
 def q12() -> float:
-    """[Numeric] Jika = 0 dan = 10, berapakah nilai estimasi slope ?"""
+    """[Numeric] Jika S = 40 dan S = 10, berapakah nilai estimasi slope ?"""
     raise NotImplementedError
+

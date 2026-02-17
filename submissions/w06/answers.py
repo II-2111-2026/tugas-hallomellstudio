@@ -9,9 +9,7 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-
 from __future__ import annotations
-
 def q01() -> bool:
     """[T/F] Distribusi Binomial digunakan untuk eksperimen dengan jumlah percobaan yang
 tidak terbatas."""
@@ -22,68 +20,65 @@ def q02() -> bool:
     raise NotImplementedError
 
 def q03() -> bool:
-    """[T/F] Distribusi Bernoulli adalah kasus khusus dari distribusi Binomial dengan = 1."""
+    """[T/F] Distribusi Bernoulli adalah kasus khusus dari distribusi Binomial dengan n = 1."""
     raise NotImplementedError
 
 def q04() -> str:
-    """[MC] Jika 10, 0, , maka nilai harapannya adalah:
-a) 2
-b) 0,2
-c) 8
-d) 1,6"""
+    """[MC] Jika X Bn(10,0,2), maka nilai harapannya adalah:
+
+A) 2
+B) 0,2
+C) 8
+D) 1,6"""
     raise NotImplementedError
 
 def q05() -> str:
     """[MC] Distribusi yang paling tepat untuk memodelkan jumlah telepon yang masuk ke call
 center dalam satu menit adalah:
-a) Binomial.
-b) Poisson.
-c) Uniform.
-d) Normal."""
+
+A) Binomial.
+B) Poisson.
+C) Uniform.
+D) Normal."""
     raise NotImplementedError
 
 def q06() -> str:
     """[MC] Pada distribusi Binomial, probabilitas sukses p harus:
-a) Berubah tiap percobaan.
-b) Tetap konstan tiap percobaan.
-c) Selalu 0,5.
-d) Berkurang seiring waktu."""
+
+A) Berubah tiap percobaan.
+B) Tetap konstan tiap percobaan.
+C) Selalu 0,5.
+D) Berkurang seiring waktu."""
     raise NotImplementedError
 
 def q07() -> str:
-    """[MC] Rumus = = − adalah untuk distribusi:
+    """[MC] Rumus P(X = ) = − adalah untuk distribusi:
 
-Minggu 07: Distribusi Probabilitas Kontinu - Normal dan
-Eksponensial
-Minggu ketujuh memperkenalkan distribusi paling penting dalam statistika: Distribusi Normal
-(Gaussian) dan pasangannya untuk waktu tunggu, distribusi Eksponensial.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-Pertanyaan Aplikatif
-a) Binomial.
-b) Poisson.
-c) Geometrik.
-d) Eksponensial."""
+A) Binomial.
+B) Poisson.
+C) Geometrik.
+D) Eksponensial."""
     raise NotImplementedError
 
 def q08() -> float:
-    """[Numeric] Jika , 0, 5, hitung = ."""
+    """[Numeric] Jika X Bn(4,0,5), hitung P(X = 2)."""
     raise NotImplementedError
 
 def q09() -> float:
-    """[Numeric] Untuk distribusi Poisson dengan = , berapakah probabilitas = 0? (Gunakan
-3 desimal)"""
+    """[Numeric] Untuk distribusi Poisson dengan = 2, berapakah probabilitas P(X = 0)?
+(Gunakan 3 desimal)"""
     raise NotImplementedError
 
 def q10() -> float:
-    """[Numeric] Hitung variansi dari variabel acak 100, 0, 1."""
+    """[Numeric] Hitung variansi dari variabel acak X Bn(100,0,1)."""
     raise NotImplementedError
 
 def q11() -> float:
-    """[Numeric] Berapakah nilai maksimum yang mungkin dari variabel acak 10, 0, 5?"""
+    """[Numeric] Berapakah nilai maksimum yang mungkin dari variabel acak X Bn(10,0,5)?"""
     raise NotImplementedError
 
 def q12() -> float:
     """[Numeric] Jika rata-rata kedatangan paket adalah 5 per ms, berapakah variansi jumlah
 paket per ms?"""
     raise NotImplementedError
+

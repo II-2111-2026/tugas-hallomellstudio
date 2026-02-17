@@ -8,6 +8,29 @@ from __future__ import annotations
 
 import math
 import re
+import sys
+from pathlib import Path
+
+# Find repo root (folder that contains 'submissions/') robustly
+_p = Path(__file__).resolve()
+ROOT = None
+for parent in [_p.parent] + list(_p.parents):
+    if (parent / "submissions").exists():
+        ROOT = parent
+        break
+if ROOT is None:
+    ROOT = _p.parent
+
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+import sys
+from pathlib import Path
+
+# Make repo root importable even when pytest changes import mode / CWD
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 
 from submissions.w08 import answers as A
 

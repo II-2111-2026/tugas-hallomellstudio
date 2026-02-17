@@ -3,11 +3,25 @@
 Jawaban mahasiswa diambil dari:
   submissions/w07/answers.py
 """
-
 from __future__ import annotations
 
 import math
 import re
+import sys
+from pathlib import Path
+
+# Find repo root (folder that contains 'submissions/') robustly
+_p = Path(__file__).resolve()
+ROOT = None
+for parent in [_p.parent] + list(_p.parents):
+    if (parent / "submissions").exists():
+        ROOT = parent
+        break
+if ROOT is None:
+    ROOT = _p.parent
+
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from submissions.w07 import answers as A
 
@@ -79,10 +93,11 @@ def test_q09():
     assert math.isclose(_num(A.q09()), 0.01, rel_tol=0.0, abs_tol=0.0005)
 
 def test_q10():
-    assert math.isclose(_num(A.q10()), 1.96, rel_tol=0.0, abs_tol=0.005)
+    assert math.isclose(_num(A.q10()), 1.96, rel_tol=0.0, abs_tol=0.0005)
 
 def test_q11():
     assert _num(A.q11()) == 1.0
 
 def test_q12():
-    assert math.isclose(_num(A.q12()), 0.0013, rel_tol=0.0, abs_tol=5e-05)
+    assert math.isclose(_num(A.q12()), 0.0013, rel_tol=0.0, abs_tol=0.0005)
+

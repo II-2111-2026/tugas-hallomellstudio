@@ -1,5 +1,5 @@
 ---
-title: "Quiz w06 — Minggu 06 (soal dari strategi.pdf)"
+title: "Quiz w06 — Minggu 06 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -32,16 +32,21 @@ Parameter mean dan variansi pada distribusi Poisson memiliki nilai yang sama.
 
 ## Q03 (T/F)
 
-Distribusi Bernoulli adalah kasus khusus dari distribusi Binomial dengan = 1.
+Distribusi Bernoulli adalah kasus khusus dari distribusi Binomial dengan n = 1.
 
 ## Q04 (MC)
 
-Jika 10, 0, , maka nilai harapannya adalah:
+Jika X Bn(10,0,2), maka nilai harapannya adalah:
 
 - **A)** 2
+
 - **B)** 0,2
+
 - **C)** 8
+
 - **D)** 1,6
+
+
 
 ## Q05 (MC)
 
@@ -49,52 +54,59 @@ Distribusi yang paling tepat untuk memodelkan jumlah telepon yang masuk ke call
 center dalam satu menit adalah:
 
 - **A)** Binomial.
+
 - **B)** Poisson.
+
 - **C)** Uniform.
+
 - **D)** Normal.
+
+
 
 ## Q06 (MC)
 
 Pada distribusi Binomial, probabilitas sukses p harus:
 
 - **A)** Berubah tiap percobaan.
+
 - **B)** Tetap konstan tiap percobaan.
+
 - **C)** Selalu 0,5.
+
 - **D)** Berkurang seiring waktu.
+
+
 
 ## Q07 (MC)
 
-Rumus = = − adalah untuk distribusi:
-
-Minggu 07: Distribusi Probabilitas Kontinu - Normal dan
-Eksponensial
-Minggu ketujuh memperkenalkan distribusi paling penting dalam statistika: Distribusi Normal
-(Gaussian) dan pasangannya untuk waktu tunggu, distribusi Eksponensial.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-Pertanyaan Aplikatif
+Rumus P(X = ) = − adalah untuk distribusi:
 
 - **A)** Binomial.
+
 - **B)** Poisson.
+
 - **C)** Geometrik.
+
 - **D)** Eksponensial.
+
+
 
 ## Q08 (Numeric)
 
-Jika , 0, 5, hitung = .
+Jika X Bn(4,0,5), hitung P(X = 2).
 
 ## Q09 (Numeric)
 
-Untuk distribusi Poisson dengan = , berapakah probabilitas = 0? (Gunakan
-3 desimal)
+Untuk distribusi Poisson dengan = 2, berapakah probabilitas P(X = 0)?
+(Gunakan 3 desimal)
 
 ## Q10 (Numeric)
 
-Hitung variansi dari variabel acak 100, 0, 1.
+Hitung variansi dari variabel acak X Bn(100,0,1).
 
 ## Q11 (Numeric)
 
-Berapakah nilai maksimum yang mungkin dari variabel acak 10, 0, 5?
+Berapakah nilai maksimum yang mungkin dari variabel acak X Bn(10,0,5)?
 
 ## Q12 (Numeric)
 

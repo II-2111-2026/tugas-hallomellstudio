@@ -9,63 +9,59 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-
 from __future__ import annotations
-
 def q01() -> bool:
-    """[T/F] Jika kejadian  dan  independen, maka = ."""
+    """[T/F] Jika kejadian A dan B independen, maka P(A|B) = P(A)."""
     raise NotImplementedError
 
 def q02() -> bool:
-    """[T/F] Probabilitas kondisional  selalu sama dengan ."""
+    """[T/F] Probabilitas kondisional P(A|B) selalu sama dengan P(B|A)."""
     raise NotImplementedError
 
 def q03() -> bool:
-    """[T/F] Teorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari 
-menjadi ."""
+    """[T/F] Teorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari
+P(B|A) menjadi P(A|B)."""
     raise NotImplementedError
 
 def q04() -> str:
-    """[MC] Jika = 0, 5, = 0,  dan ,  independen, maka  adalah:
-a) 0,9
-b) 0,1
-c) 0,2
-d) 0,5"""
+    """[MC] Jika P(A) = 0,5,P(B) = 0,4 dan A,B independen, maka P(A∩B) adalah:
+
+A) 0,9
+B) 0,1
+C) 0,2
+D) 0,5"""
     raise NotImplementedError
 
 def q05() -> str:
-    """[MC] Rumus Bayes menyatakan bahwa  sama dengan:
-a) 
+    """[MC] Rumus Bayes menyatakan bahwa P(A|B) sama dengan:
 
-Minggu 05: Variabel Acak, Ekspektasi, dan Variansi
-Minggu ini menandai transisi dari kejadian diskrit ke variabel numerik. Mahasiswa belajar
-memetakan hasil dunia nyata ke dalam fungsi matematika. Konsep nilai harapan
-(ekspektasi) diperkenalkan sebagai representasi keuntungan jangka panjang atau rata-rata
-beban sistem.
-b) 
-c) 
-d)"""
+A) P(B|A)P(A)/P(B)
+B) P(A|B)P(B)/P(A)
+C) P(A)+P(B)
+D) P(A∩B)"""
     raise NotImplementedError
 
 def q06() -> str:
     """[MC] Kejadian di mana hasil satu eksperimen tidak mempengaruhi hasil eksperimen
 lainnya disebut:
-a) Saling lepas.
-b) Independen.
-c) Kondisional.
-d) Komplementer."""
+
+A) Saling lepas.
+B) Independen.
+C) Kondisional.
+D) Komplementer."""
     raise NotImplementedError
 
 def q07() -> str:
     """[MC] Jika sebuah tes medis memiliki sensitivitas tinggi, maka:
-a) Banyak hasil false positive.
-b) Probabilitas mendeteksi orang sakit sangat tinggi.
-c) Probabilitas mendeteksi orang sehat sangat tinggi.
-d) Tes tersebut tidak berguna."""
+
+A) Banyak hasil false positive.
+B) Probabilitas mendeteksi orang sakit sangat tinggi.
+C) Probabilitas mendeteksi orang sehat sangat tinggi.
+D) Tes tersebut tidak berguna."""
     raise NotImplementedError
 
 def q08() -> float:
-    """[Numeric] Jika = 0,  dan = 0, 5, berapakah ?"""
+    """[Numeric] Jika P(A∩B) = 0,2 dan P(B) = 0,5, berapakah P(A|B)?"""
     raise NotImplementedError
 
 def q09() -> float:
@@ -80,10 +76,12 @@ probabilitas dia benar-benar sakit?"""
     raise NotImplementedError
 
 def q11() -> float:
-    """[Numeric] Jika = 0, , = 0,  dan = 0, , hitung  menggunakan Hukum Probabilitas Total."""
+    """[Numeric] Jika P(A) = 0,3,P(B|A) = 0,7 dan P(B|Ac) = 0,4, hitung P(B)
+menggunakan Hukum Probabilitas Total."""
     raise NotImplementedError
 
 def q12() -> float:
-    """[Numeric] Dari soal nomor 11, hitung  menggunakan Teorema Bayes (Gunakan 3
-desimal)."""
+    """[Numeric] Dari soal nomor 11, hitung P(A|B) menggunakan Teorema Bayes (Gunakan
+3 desimal)."""
     raise NotImplementedError
+

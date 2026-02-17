@@ -1,5 +1,5 @@
 ---
-title: "Quiz w02 — Minggu 02 (soal dari strategi.pdf)"
+title: "Quiz w02 — Minggu 02 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -23,7 +23,7 @@ execute:
 
 ## Q01 (T/F)
 
-Jika dua kejadian  dan  saling lepas, maka = 0.
+Jika dua kejadian A dan B saling lepas, maka P(A∩B) = 0.
 
 ## Q02 (T/F)
 
@@ -32,47 +32,68 @@ masing-masing kejadian.
 
 ## Q03 (T/F)
 
-Hukum komplemen menyatakan bahwa = 1.
+Hukum komplemen menyatakan bahwa P(A)+P(Ac) = 1.
 
 ## Q04 (MC)
 
-Jika = 0,  dan = 0,  serta keduanya saling lepas, maka  adalah:
+Jika P(A) = 0,4 dan P(B) = 0,3 serta keduanya saling lepas, maka P(A∪B)
+adalah:
 
 - **A)** 0,7
+
 - **B)** 0,12
+
 - **C)** 0,1
+
 - **D)** 0,5
+
+
 
 ## Q05 (MC)
 
 Manakah simbol yang merepresentasikan irisan antara kejadian A dan B?
 
-- **A)** 
-- **B)** 
-- **C)** 
-- **D)** 
+- **A)** A∪B
+
+- **B)** A∩B
+
+- **C)** A∖B
+
+- **D)** Ac
+
+
 
 ## Q06 (MC)
 
-Jika , maka manakah pernyataan yang benar?
+Jika A ⊂ B, maka manakah pernyataan yang benar?
 
-- **A)** 
-- **B)** =
-- **C)** =
-- **D)** = 1
+- **A)** P(A) > P(B)
+
+- **B)** P(A∩B) = P(A)
+
+- **C)** P(A∪B) = P(A)
+
+- **D)** P(A)+P(B) = 1
+
+
 
 ## Q07 (MC)
 
 Dalam diagram Venn, area di luar lingkaran A merepresentasikan:
 
 - **A)** Kejadian A.
-- **B)** Komplemen kejadian A ($A^c$).
+
+- **B)** Komplemen kejadian A (Ac).
+
 - **C)** Irisan A dengan B.
+
 - **D)** Ruang sampel kosong.
+
+
 
 ## Q08 (Numeric)
 
-Jika = 0, 6, = 0, 5, dan = 0, , berapakah ?
+Jika P(A) = 0,6,P(B) = 0,5, dan P(A∩B) = 0,2, berapakah P(A∪B)?
 
 ## Q09 (Numeric)
 
@@ -81,7 +102,8 @@ sistem tersebut berhasil?
 
 ## Q10 (Numeric)
 
-Jika kejadian  dan  saling lepas dengan = 0,  dan = 0, 5, berapakah ?
+Jika kejadian A dan B saling lepas dengan P(A) = 0,2 dan P(B) = 0,5,
+berapakah P(A∩B)?
 
 ## Q11 (Numeric)
 
@@ -90,4 +112,5 @@ adil?
 
 ## Q12 (Numeric)
 
-Jika = 0, , = 0, 5, dan  serta  saling lepas, berapakah ?
+Jika P(A∪B) = 0,8,P(A) = 0,5, dan A serta B saling lepas, berapakah
+P(B)?

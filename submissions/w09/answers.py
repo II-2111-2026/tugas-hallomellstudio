@@ -9,16 +9,15 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-
 from __future__ import annotations
-
 def q01() -> bool:
     """[T/F] Jika korelasi antara dua variabel adalah nol, maka kedua variabel tersebut pasti
 independen."""
     raise NotImplementedError
 
 def q02() -> bool:
-    """[T/F] PDF marginal  didapatkan dengan mengintegralkan ,  terhadap  dari − ke ."""
+    """[T/F] PDF marginal () didapatkan dengan mengintegralkan (,) terhadap dari − ke .
+X"""
     raise NotImplementedError
 
 def q03() -> bool:
@@ -26,64 +25,60 @@ def q03() -> bool:
     raise NotImplementedError
 
 def q04() -> str:
-    """[MC] Jika  dan  independen, maka  sama dengan:
-a) 
-b) 
-c) 
-d) 0"""
+    """[MC] Jika X dan independen, maka E sama dengan:
+
+A) E[X]+E
+B) E[X]E
+C) E[X]/E
+D) 0"""
     raise NotImplementedError
 
 def q05() -> str:
     """[MC] Manakah ukuran yang menunjukkan kekuatan hubungan linear antara dua
 variabel?
-a) Variansi.
 
-Minggu 10: Distribusi Sampling dan Teorema Limit Pusat
-Minggu kesepuluh merupakan jembatan menuju statistika inferensial. Mahasiswa
-mempelajari perilaku rata-rata sampel dan keajaiban Teorema Limit Pusat (CLT) yang
-memungkinkan inferensi pada populasi besar.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-b) Mean.
-c) Korelasi.
-d) CDF."""
+A) Variansi.
+B) Mean.
+C) Korelasi.
+D) CDF."""
     raise NotImplementedError
 
 def q06() -> str:
-    """[MC] Jika = , = , dan ,  independen, maka  adalah:
-a) 13
-b) 5
-c) 36
-d) 6,5"""
+    """[MC] Jika (X) = 4,() = 9, dan X, independen, maka (X+) adalah:
+
+A) 13
+B) 5
+C) 36
+D) 6,5"""
     raise NotImplementedError
 
 def q07() -> str:
-    """[MC] Fungsi probabilitas kondisional  didefinisikan sebagai:
-a) ,
-b) ,
-c) 
-d) , −"""
+    """[MC] Fungsi probabilitas kondisional (|) didefinisikan sebagai:
+
+A) (,)/ () X
+B) (,)/()
+C) () () X
+D) (,)− () X"""
     raise NotImplementedError
 
 def q08() -> float:
-    """[Numeric] Jika , = , = , = , berapakah koefisien korelasinya?"""
+    """[Numeric] Jika (X,) = 2, X = 2, = 2, berapakah koefisien korelasinya?"""
     raise NotImplementedError
 
 def q09() -> float:
-    """[Numeric] Berapakah nilai  jika = 10 dan = 0?"""
+    """[Numeric] Berapakah nilai E jika E[X] = 10 dan E = 20?"""
     raise NotImplementedError
 
 def q10() -> float:
-    """[Numeric] Jika , = 1 untuk 0
- dan 0
-, berapakah 1, 1?"""
+    """[Numeric] Jika (,) = 1/4 untuk 0 2 dan 0 2, berapakah P(X 1, 1)?"""
     raise NotImplementedError
 
 def q11() -> float:
-    """[Numeric] Dalam tabel diskrit, jika 1, 1 = 0, 1 1, = 0, , 1 = 0, , = 0, , berapakah
-probabilitas marginal = 1?"""
+    """[Numeric] Dalam tabel diskrit, jika P(1,1) = 0,1P(1,2) = 0,2P(2,1) = 0,3P(2,2) = 0,4,
+berapakah probabilitas marginal P(X = 1)?"""
     raise NotImplementedError
 
 def q12() -> float:
-    """[Numeric] Jika  dan  memiliki korelasi 1 dan = , berapakah ?"""
+    """[Numeric] Jika X dan memiliki korelasi 1 dan (X) = 4, berapakah (X+X)?"""
     raise NotImplementedError
+

@@ -1,5 +1,5 @@
 ---
-title: "Quiz w05 — Minggu 05 (soal dari strategi.pdf)"
+title: "Quiz w05 — Minggu 05 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -23,7 +23,7 @@ execute:
 
 ## Q01 (T/F)
 
-Nilai harapan dari sebuah variabel acak harus merupakan  satu nilai yang
+Nilai harapan dari sebuah variabel acak harus merupakan salah satu nilai yang
 mungkin muncul dari variabel tersebut.
 
 ## Q02 (T/F)
@@ -32,61 +32,81 @@ Variansi dari sebuah variabel acak tidak pernah bernilai negatif.
 
 ## Q03 (T/F)
 
-Jika  adalah konstanta , maka =  dan = 0.
+Jika X adalah konstanta c, maka E[X] = c dan (X) = 0.
 
 ## Q04 (MC)
 
-Jika = 5, maka  adalah:
+Jika E[X] = 5, maka E[2X+3] adalah:
 
 - **A)** 10
+
 - **B)** 13
+
 - **C)** 8
+
 - **D)** 5
+
+
 
 ## Q05 (MC)
 
-Variansi dari variabel acak  didefinisikan sebagai:
+Variansi dari variabel acak X didefinisikan sebagai:
 
-- **A)** −
-- **B)** −
-- **C)** 
-- **D)** 
+- **A)** E[X2]−(E[X])2
+
+- **B)** E[X]−E[X2]
+
+- **C)** E[X]
+
+- **D)** E[X]2
+
+
 
 ## Q06 (MC)
 
-Fungsi yang memberikan probabilitas  disebut:
+Fungsi yang memberikan probabilitas P(X ) disebut:
 
 - **A)** PMF.
+
 - **B)** PDF.
+
 - **C)** CDF.
+
 - **D)** MGF.
+
+
 
 ## Q07 (MC)
 
-Simpangan baku ($\sigma$) adalah:
+Simpangan baku () adalah:
 
 - **A)** Akar kuadrat dari variansi.
+
 - **B)** Kuadrat dari mean.
+
 - **C)** Selisih antara nilai maksimum dan minimum.
-- **D)** Nilai harapan dari $X$.
+
+- **D)** Nilai harapan dari X.
+
+
 
 ## Q08 (Numeric)
 
-Jika  memiliki nilai 0, 1 dengan probabilitas 0, , 0, 6, berapakah ?
+Jika X memiliki nilai 0,1 dengan probabilitas 0,4,0,6, berapakah E[X]?
 
 ## Q09 (Numeric)
 
-Hitung  untuk variabel pada soal nomor 8.
+Hitung (X) untuk variabel pada soal nomor 8.
 
 ## Q10 (Numeric)
 
-Jika = 10 dan = 116, berapakah variansinya?
+Jika E[X] = 10 dan E[X2] = 116, berapakah variansinya?
 
 ## Q11 (Numeric)
 
-Sebuah variabel acak memiliki nilai 1, ,  dengan peluang sama. Berapakah
+Sebuah variabel acak memiliki nilai 1,2,3 dengan peluang sama. Berapakah
 nilai harapannya?
 
 ## Q12 (Numeric)
 
-Jika = , berapakah 5?
+Jika (X) = 4, berapakah (3X+5)?

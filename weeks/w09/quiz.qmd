@@ -1,5 +1,5 @@
 ---
-title: "Quiz w09 — Minggu 09 (soal dari strategi.pdf)"
+title: "Quiz w09 — Minggu 09 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -28,7 +28,8 @@ independen.
 
 ## Q02 (T/F)
 
-PDF marginal  didapatkan dengan mengintegralkan ,  terhadap  dari − ke .
+PDF marginal () didapatkan dengan mengintegralkan (,) terhadap dari − ke .
+X
 
 ## Q03 (T/F)
 
@@ -36,67 +37,78 @@ Nilai koefisien korelasi selalu berada di antara -1 dan 1.
 
 ## Q04 (MC)
 
-Jika  dan  independen, maka  sama dengan:
+Jika X dan independen, maka E sama dengan:
 
-- **A)** 
-- **B)** 
-- **C)** 
+- **A)** E[X]+E
+
+- **B)** E[X]E
+
+- **C)** E[X]/E
+
 - **D)** 0
+
+
 
 ## Q05 (MC)
 
 Manakah ukuran yang menunjukkan kekuatan hubungan linear antara dua
 variabel?
 
-Minggu 10: Distribusi Sampling dan Teorema Limit Pusat
-Minggu kesepuluh merupakan jembatan menuju statistika inferensial. Mahasiswa
-mempelajari perilaku rata-rata sampel dan keajaiban Teorema Limit Pusat (CLT) yang
-memungkinkan inferensi pada populasi besar.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-
 - **A)** Variansi.
+
 - **B)** Mean.
+
 - **C)** Korelasi.
+
 - **D)** CDF.
+
+
 
 ## Q06 (MC)
 
-Jika = , = , dan ,  independen, maka  adalah:
+Jika (X) = 4,() = 9, dan X, independen, maka (X+) adalah:
 
 - **A)** 13
+
 - **B)** 5
+
 - **C)** 36
+
 - **D)** 6,5
+
+
 
 ## Q07 (MC)
 
-Fungsi probabilitas kondisional  didefinisikan sebagai:
+Fungsi probabilitas kondisional (|) didefinisikan sebagai:
 
-- **A)** ,
-- **B)** ,
-- **C)** 
-- **D)** , −
+- **A)** (,)/ () X
+
+- **B)** (,)/()
+
+- **C)** () () X
+
+- **D)** (,)− () X
+
+
 
 ## Q08 (Numeric)
 
-Jika , = , = , = , berapakah koefisien korelasinya?
+Jika (X,) = 2, X = 2, = 2, berapakah koefisien korelasinya?
 
 ## Q09 (Numeric)
 
-Berapakah nilai  jika = 10 dan = 0?
+Berapakah nilai E jika E[X] = 10 dan E = 20?
 
 ## Q10 (Numeric)
 
-Jika , = 1 untuk 0
- dan 0
-, berapakah 1, 1?
+Jika (,) = 1/4 untuk 0 2 dan 0 2, berapakah P(X 1, 1)?
 
 ## Q11 (Numeric)
 
-Dalam tabel diskrit, jika 1, 1 = 0, 1 1, = 0, , 1 = 0, , = 0, , berapakah
-probabilitas marginal = 1?
+Dalam tabel diskrit, jika P(1,1) = 0,1P(1,2) = 0,2P(2,1) = 0,3P(2,2) = 0,4,
+berapakah probabilitas marginal P(X = 1)?
 
 ## Q12 (Numeric)
 
-Jika  dan  memiliki korelasi 1 dan = , berapakah ?
+Jika X dan memiliki korelasi 1 dan (X) = 4, berapakah (X+X)?

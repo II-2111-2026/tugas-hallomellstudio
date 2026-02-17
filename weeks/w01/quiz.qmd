@@ -1,5 +1,5 @@
 ---
-title: "Quiz w01 — Minggu 01 (soal dari strategi.pdf)"
+title: "Quiz w01 — Minggu 01 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -41,44 +41,57 @@ mendekati tak hingga.
 Manakah yang merupakan contoh variabel acak dalam sistem STI?
 
 - **A)** Kapasitas total hard disk 1TB.
+
 - **B)** Jumlah core pada prosesor Intel i7.
+
 - **C)** Waktu yang dibutuhkan untuk merespons query database.
+
 - **D)** Jumlah bit dalam satu byte.
+
+
 
 ## Q05 (MC)
 
-Jika sebuah ruang sampel  terdiri dari 4 kejadian yang memiliki peluang sama,
+Jika sebuah ruang sampel S terdiri dari 4 kejadian yang memiliki peluang sama,
 maka probabilitas satu kejadian adalah:
 
-Minggu 02: Kerangka Probabilitas dan Operasi Kejadian
-Minggu kedua memperdalam struktur matematika melalui teori himpunan. Pemahaman
-tentang irisan, gabungan, dan komplemen sangat krusial dalam merancang logika sistem
-informasi yang tangguh.
-Bank Soal Mingguan
-Pertanyaan Konseptual
-
 - **A)** 0,5
+
 - **B)** 0,25
+
 - **C)** 0,75
+
 - **D)** 1,0
+
+
 
 ## Q06 (MC)
 
 Kejadian yang mustahil terjadi memiliki nilai probabilitas sebesar:
 
 - **A)** 0
+
 - **B)** 1
+
 - **C)** -1
+
 - **D)** 0,5
+
+
 
 ## Q07 (MC)
 
 Sekumpulan hasil eksperimen yang merupakan subset dari ruang sampel disebut:
 
 - **A)** Populasi.
+
 - **B)** Parameter.
+
 - **C)** Kejadian (Event).
+
 - **D)** Konstanta.
+
+
 
 ## Q08 (Numeric)
 

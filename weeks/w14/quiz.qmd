@@ -1,5 +1,5 @@
 ---
-title: "Quiz w14 — Minggu 14 (soal dari strategi.pdf)"
+title: "Quiz w14 — Minggu 14 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -27,14 +27,13 @@ Pengujian A/B adalah aplikasi nyata dari uji hipotesis dua sampel.
 
 ## Q02 (T/F)
 
-Metrik "Presisi" mengukur seberapa banyak dari total prediksi positif yang -
- positif.
+Metrik "Presisi" mengukur seberapa banyak dari total prediksi positif yang benar-
+benar positif.
 
 ## Q03 (T/F)
 
 Dalam monitoring sistem, kita biasanya mengabaikan outlier karena itu bukan
-bagian dari pola normal.  - outlier seringkali menunjukkan anomali atau
-kegagalan).
+bagian dari pola normal.
 
 ## Q04 (MC)
 
@@ -42,36 +41,56 @@ Metrik evaluasi yang tepat untuk dataset dengan kelas yang tidak seimbang
 (imbalanced) adalah:
 
 - **A)** Akurasi.
+
 - **B)** F1-Score.
+
 - **C)** Mean.
+
 - **D)** Range.
+
+
 
 ## Q05 (MC)
 
-Dalam deteksi anomali, data yang berada di luar  biasanya dianggap:
+Dalam deteksi anomali, data yang berada di luar 3 biasanya dianggap:
 
 - **A)** Data normal.
+
 - **B)** Outlier atau anomali.
+
 - **C)** Nilai rata-rata.
+
 - **D)** Sampel ideal.
+
+
 
 ## Q06 (MC)
 
 Pengujian A/B dilakukan untuk:
 
 - **A)** Mengurangi biaya server.
+
 - **B)** Menentukan versi produk mana yang memberikan performa/konversi lebih baik.
+
 - **C)** Menghapus bug secara otomatis.
+
 - **D)** Mengganti peran programmer.
+
+
 
 ## Q07 (MC)
 
 Jika sebuah sistem memiliki presisi 1,0, berarti:
 
 - **A)** Tidak ada false positive.
+
 - **B)** Tidak ada false negative.
+
 - **C)** Akurasi 100%.
+
 - **D)** Sistem sempurna.
+
+
 
 ## Q08 (Numeric)
 
@@ -94,4 +113,4 @@ baku 5?
 ## Q12 (Numeric)
 
 Jika dalam pengujian A/B, p-value yang didapat adalah 0,001, apakah ada
-perbedaan signifikan pada = 0, 05? (Tulis 1 untuk Ya, 0 untuk Tidak)
+perbedaan signifikan pada = 0,05? (Tulis 1 untuk Ya, 0 untuk Tidak)

@@ -77,16 +77,8 @@ jobs:
           pip install -r requirements.txt
 
           # Render student-friendly report (single source of truth: answers.py)
-          if [ -f "submissions/${WEEK}/laporan.qmd" ]; then
-            quarto render "submissions/${WEEK}/laporan.qmd"
-          else
-            echo "No submissions/${WEEK}/laporan.qmd found; skipping."
-          fi
-
-          # (Optional) Render the quiz sheet too
-          if [ -f "weeks/${WEEK}/quiz.qmd" ]; then
-            quarto render "weeks/${WEEK}/quiz.qmd" || true
-          fi
+          quarto render
+          
 
       - name: Upload Quarto HTML as artifact
         if: always()
